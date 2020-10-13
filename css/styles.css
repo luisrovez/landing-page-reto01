@@ -36,11 +36,12 @@ body {
   width: 100vw;
   height: 100vh;
 
-  position: absolute;
+  position: fixed;
   right: 0;
   left: 0;
   bottom: 0;
   top: 0;
+  overflow: hidden;
 
   background-color: var(--primary-color);
   background-image: url(../images/bg-mobile.svg);
